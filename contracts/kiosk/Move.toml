@@ -4,7 +4,7 @@ version = "1.7.0"
 published-at = "0x710fe6944f741058ce916cd16e87953a656b5d339591c1627e73e41f01509d99"
 
 [dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.19.1" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 Permissions = { local = "./../permissions" }
 Request = { local = "./../request" }
 
